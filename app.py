@@ -5,7 +5,8 @@ st.set_page_config(layout="wide")
 
 st.title("📊 Global Population Dashboard")
 
-power_bi_url = "https://adityagroup-my.sharepoint.com/:u:/g/personal/24p35a4208_acet_ac_in/IQCZMbekSQWRT6et8HsWAVbsAcAtNVpDCjLCid0x3KEwwGc?e=MyoSxr"
+power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiZDNjYjc5N2EtNTJjZS00YmFiLTlhMWMtZTdjMGQ4MTQ1MDhmIiwidCI6IjgwOGNjODNlLWE1NDYtNDdlNy1hMDNmLTczYTFlYmJhMjRmMyIsImMiOjEwfQ%3D%3D"
 
 
 components.iframe(power_bi_url, height=750)
+
